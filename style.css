@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  font-family: "Bebas Neue";
+}
+
+body {
+  background-color: #ecd2b1;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(110%);
+  }
+}
+
+.card-text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-title-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+}
+
+.card-title-main:hover {
+  animation-name: zoomIn;
+  animation-duration: 2s;
+}
+
+.card-goverment-pro-one:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/government-information.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 3s;
+  transform: scale(1.5);
+  animation-name: zoomIn;
+  animation-duration: 2s;
+}
+.card-goverment-pro-two:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/government-organization.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 3s;
+  transform: scale(1.5);
+  animation-name: zoomIn;
+  animation-duration: 2s;
+}
+.card-goverment-con:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/government-corruption.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 3s;
+  transform: scale(1.5);
+  animation-name: zoomIn;
+  animation-duration: 2s;
+}
+.card-culture-pro-one:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/culture-understanding.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 3s;
+  transform: scale(1.5);
+  animation-name: zoomIn;
+  animation-duration: 2s;
+}
+.card-culture-pro-two:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/culture-amenities.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 3s;
+  transform: scale(1.5);
+  animation-name: zoomIn;
+  animation-duration: 2s;
+}
+.card-culture-con:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/culture-identity.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 3s;
+  transform: scale(1.5);
+  animation-name: zoomIn;
+  animation-duration: 2s;
+}
+.card-economy-pro-one:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/economy-opportunities.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 3s;
+  transform: scale(1.5);
+  animation-name: zoomIn;
+  animation-duration: 2s;
+}
+.card-economy-pro-two:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/economy-boost.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 3s;
+  transform: scale(1.5);
+  animation-name: zoomIn;
+  animation-duration: 2s;
+}
+
+.card-economy-con:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/economy-debt.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 3s;
+  transform: scale(1.5);
+  animation-name: zoomIn;
+  animation-duration: 2s;
+}
